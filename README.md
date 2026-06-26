@@ -76,6 +76,12 @@
         color: var(--accent);
         white-space: pre;
         margin-bottom: 8px;
+
+        background: transparent !important; /* Usuwa białe tło domyślnego motywu */
+        border: none !important;            /* Usuwa ewentualne ramki */
+        padding: 0 !important;              /* Resetuje wewnętrzne odstępy */
+        overflow: visible !important;       /* Likwiduje paski przewijania (scrollbary) */
+        width: auto !important;
         }
         .logo-name {
         font-size: 15px;
@@ -319,7 +325,7 @@
         <aside id="sidebar">
 
             <div class="logo-block">
-            ```text
+           <pre>
  ____      ____    __   ________
 |  _ \    |    \  |  | |__    __|
 | (_) \   |  |  \ |  |    |  |
@@ -335,7 +341,7 @@
            \   _   /
             ( ) ( )
              "   "
-```
+        </pre>
 
             <div class="logo-name">PolskiAnt</div>
             <div class="logo-sub">games / mods / etc.</div>
