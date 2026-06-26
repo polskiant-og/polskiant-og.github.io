@@ -319,8 +319,8 @@
         <aside id="sidebar">
 
             <div class="logo-block">
-            <pre>
- ____      ____    __   ________
+            ```text
+ ____      ____    __   ___________
 |  _ \    |    \  |  | |__    __|
 | (_) \   |  |  \ |  |    |  |
 |      \  |  |\  \|  |    |  |
@@ -335,7 +335,7 @@
            \   _   /
             ( ) ( )
              "   "
-        </pre>
+```
 
             <div class="logo-name">PolskiAnt</div>
             <div class="logo-sub">games / mods / etc.</div>
