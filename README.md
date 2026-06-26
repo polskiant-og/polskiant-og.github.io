@@ -7,6 +7,11 @@
     <style>
         *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
+        body > h1:first-of-type,
+        body > header {
+            display: none !important;
+        }
+
         :root {
         --bg:      #0d0d0d;
         --bg2:     #141414;
