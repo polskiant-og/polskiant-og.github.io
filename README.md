@@ -18,10 +18,13 @@
         --dim:     #888;
         }
 
-        html { scroll-behavior: smooth; }
+        html { 
+            scroll-behavior: smooth; 
+            background: var(--bg); 
+        }
 
         body {
-          background: var(--bg);
+        background: transparent !important;
         color: var(--text);
         font-family: 'Courier New', Courier, monospace;
         font-size: 13px;
@@ -34,15 +37,13 @@
         
         }
 
-        #noise{
+        #noise {
             position: fixed;
             inset: 0;
-
             background: url("https://cliply.co/wp-content/uploads/2021/07/402107790_STATIC_NOISE_400.gif") repeat;
-
             opacity: 0.03;
             pointer-events: none;
-            z-index: 1;
+            z-index: -1;
         }
 
         a { color: var(--accent); text-decoration: none; }
@@ -53,8 +54,8 @@
         grid-template-columns: 200px 1fr;
         min-height: 100vh;
         border:1px solid var(--border);
-        background: #111;
-        z-index: 2;
+        background: #111 !important;
+        z-index: 1;
         }
 
         /* ══ SIDEBAR ══ */
